@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS shred_it_db;
+
+CREATE DATABASE shred_it_db;
