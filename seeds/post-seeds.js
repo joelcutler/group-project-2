@@ -1,6 +1,6 @@
 const { Post } = require('../models');
 
-const postdata = [
+const postData = [
   {
     title: 'Ski Japan',
     post_url: 'https://www.snowpak.com/japan/best-ski-resorts',
@@ -23,6 +23,6 @@ const postdata = [
   },
 ];
 
-const seedPosts = () => Post.bulkCreate(postdata);
+const seedPosts = () => Post.bulkCreate(postData);
 
 module.exports = seedPosts;
