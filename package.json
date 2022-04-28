@@ -1,4 +1,23 @@
 {
+
+  "name": "group-project-2",
+  "description": "outdoors sports forum/blog project",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelcutler/group-project-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joelcutler/group-project-2/issues"
+  },
+  "homepage": "https://github.com/joelcutler/group-project-2#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.3",
