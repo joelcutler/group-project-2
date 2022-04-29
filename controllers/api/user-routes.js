@@ -1,7 +1,6 @@
 const router = require("express").Router();
-const { User } = require("../../models");
+const { User, Post } = require("../../models");
 // const { User, Post, Vote, Comment } = require("../../models");
-
 
 // GET /api/users
 router.get("/", (req, res) => {

@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const sequelize = require("../config/connection");
-const { User} = require("../models");
+const { User, Post, Vote } = require("../models");
 
 router.get("/", (req, res) => {
   console.log(req.session);
@@ -49,7 +49,7 @@ router.get("/", (req, res) => {
 
 router.get("/login", (req, res) => {
     console.log("in router")
-  if (!req.session.loggedIn) {
+  if (req.session.loggedIn) {
     res.redirect("/");
     return;
   }
