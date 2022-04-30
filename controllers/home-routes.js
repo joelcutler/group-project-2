@@ -56,6 +56,15 @@ router.get("/login", (req, res) => {
   res.render("login");
 });
 
+router.get("/signup", (req, res) => {
+  console.log("in router")
+if (req.session.loggedIn) {
+  res.redirect("/");
+  return;
+}
+res.render("signup");
+});
+
 router.get("/post/:id", (req, res) => {
   Post.findOne({
     where: {
