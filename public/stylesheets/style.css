@@ -65,6 +65,8 @@ textarea {
 
 form > div {
   margin-bottom: 2%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 form label {
