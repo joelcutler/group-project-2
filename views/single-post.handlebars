@@ -7,7 +7,7 @@
   </div>
 
   <div>
-    <button type="submit">add comment</button>
+    <button type="submit">➕add comment➕</button>
     <button type="button" class="upvote-btn">
      🤘🏽like this post🤘🏽
       {{!-- <div class="icons"><i class="fa-regular fa-hand-horns"></i></div> --}}
@@ -15,7 +15,9 @@
   </div>
 </form>
 {{/if}}
-
+<div>
+  <h4 id="h4-comments">comments:</h4>
+</div>
 {{> comments post.comments}}
 
 {{#if loggedIn}}
