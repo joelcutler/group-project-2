@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "node server.js",
-    "seed": "seeds/index.js"
+    "seeds": "node seeds/index.js"
   },
   "name": "group-project-2",
   "description": "outdoors sports forum/blog project",
