@@ -29,12 +29,13 @@ button {
   background-color: #7e992f;
   border: 0;
   padding: 1%;
-  margin-top: 1%;
+  margin: 1% 0.5%;
   color: #000000;
   font-weight: bold;
   transition: background-color 1s;
   cursor: pointer;
   border-radius: 5px;
+  font-size: 16;
 }
 
 button:hover {
@@ -50,13 +51,14 @@ textarea,
 input {
   padding: 0.5%;
   border-radius: 5px;
-  border: 1px solid rgb(157, 157, 157);
+  border: 3px solid rgb(157, 157, 157);
+  margin-bottom: 1%;
 }
 
 textarea:focus,
 input:focus {
   outline: none;
-  border: 1px solid #9cbe37;
+  border: 3px solid #3486eb;
 }
 
 textarea {
@@ -71,6 +73,15 @@ textarea {
 form label {
   display: block;
   margin-top: 1%;
+}
+
+.signup-h3 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.signup-inputs {
+  margin-top: 2%;
 }
 
 .signup-form > div,
@@ -95,6 +106,10 @@ form label {
 
 .comment-form {
   margin-bottom: 5%;
+}
+
+#h4-comments {
+  margin-left: 1%;
 }
 
 .wrapper {
@@ -127,6 +142,7 @@ main {
   background: none;
   border: none;
   padding: 0;
+  margin: auto;
   cursor: pointer;
   text-decoration: none;
   color: #225ca3;
@@ -142,11 +158,11 @@ main {
 }
 
 .delete-post-btn {
-  background-color: #d41414;
+  background-color: #c50101;
 }
 
 .delete-post-btn:hover {
-  background-color: #ff643d;
+  background-color: #ff2020;
 }
 
 .post {
@@ -180,7 +196,10 @@ main {
 }
 
 .comment:nth-child(odd) {
-  background-color: #7a7a7a;
+  background-color: #222222;
+}
+.comment:nth-child(even) {
+  background-color: #484848;
 }
 
 .comment .meta {
@@ -211,9 +230,4 @@ p {
   display: flex;
   flex-wrap: wrap;
   margin: 0.25em;
-}
-
-h3 {
-  text-align: center;
-  margin-top: 50px;
 }
