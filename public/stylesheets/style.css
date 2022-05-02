@@ -29,6 +29,7 @@ button {
   background-color: #7e992f;
   border: 0;
   padding: 1%;
+  margin-top: 1%;
   color: #000000;
   font-weight: bold;
   transition: background-color 1s;
@@ -49,7 +50,7 @@ textarea,
 input {
   padding: 0.5%;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(157, 157, 157);
 }
 
 textarea:focus,
@@ -63,12 +64,37 @@ textarea {
   min-height: 100px;
 }
 
-form > div {
-  margin-bottom: 2%;
+.login-inputs > div {
+  margin: 0 1%;
 }
 
 form label {
   display: block;
+  margin-top: 1%;
+}
+
+.signup-form > div,
+.login-form > div {
+  text-align: center;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.login-form > div {
+  justify-content: center;
+}
+
+.new-post-form input {
+  width: 300px;
+}
+
+.edit-post-form {
+  margin-bottom: 5%;
+}
+
+.comment-form {
+  margin-bottom: 5%;
 }
 
 .wrapper {
@@ -148,10 +174,6 @@ main {
   background-color: #1f9c13;
 } */
 
-.comment-form {
-  margin-bottom: 5%;
-}
-
 .comment {
   padding: 1%;
   margin-bottom: 1%;
@@ -167,18 +189,31 @@ main {
   opacity: 0.6;
 }
 
-.new-post-form input {
-  width: 300px;
-}
-
-.edit-post-form {
-  margin-bottom: 5%;
-}
-
 footer {
   border-top: 1px solid #ccc;
   display: flex;
   justify-content: center;
   padding: 1%;
   font-size: 110%;
+}
+
+.avatar-icon {
+  font-size: 50px;
+}
+
+#avatar-radios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+p {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.25em;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 50px;
 }
