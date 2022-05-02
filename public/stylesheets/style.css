@@ -73,7 +73,8 @@ textarea {
 .login-form > div {
   margin-bottom: 2%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: baseline;
 }
 
 form label {
