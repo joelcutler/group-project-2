@@ -1,22 +1,12 @@
 {
-<<<<<<< HEAD
-
-=======
   "scripts": {
     "start": "node server.js",
     "seed": "seeds/index.js"
   },
->>>>>>> develop
   "name": "group-project-2",
   "description": "outdoors sports forum/blog project",
   "version": "1.0.0",
   "main": "server.js",
-<<<<<<< HEAD
-  "scripts": {
-    "start": "node server.js"
-  },
-=======
->>>>>>> develop
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joelcutler/group-project-2.git"
