@@ -19,12 +19,12 @@ router.get('/', (req, res) => {
         attributes: ['id', 'comment_text', 'post_id', 'user_id', 'created_at'],
         include: {
           model: User,
-          attributes: ['username']
+          attributes: ['username', 'avatar']
         }
       },
       {
         model: User,
-        attributes: ['username']
+        attributes: ['username', 'avatar']
       }
     ]
   })
@@ -43,7 +43,7 @@ router.get('/', (req, res) => {
 });
 
 router.get("/login", (req, res) => {
-    console.log("in router")
+    // console.log("in router")
   if (req.session.loggedIn) {
     res.redirect("/");
     return;
@@ -52,7 +52,7 @@ router.get("/login", (req, res) => {
 });
 
 router.get("/signup", (req, res) => {
-  console.log("in router")
+  // console.log("in router")
 if (req.session.loggedIn) {
   res.redirect("/");
   return;
@@ -78,12 +78,12 @@ router.get("/post/:id", (req, res) => {
         attributes: ['id', 'comment_text', 'post_id', 'user_id', 'created_at'],
         include: {
           model: User,
-          attributes: ['username']
+          attributes: ['username', 'avatar']
         }
       },
       {
         model: User,
-        attributes: ['username']
+        attributes: ['username', 'avatar']
       }
     ]
   })

@@ -49,6 +49,12 @@ User.init(
         len: [4],
       },
     },
+
+    // define avatar column
+    avatar: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    }
     // include: [
     //   {
     //     model: User,
