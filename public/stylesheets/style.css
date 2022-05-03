@@ -104,14 +104,6 @@ form label {
   margin-bottom: 5%;
 }
 
-.comment-form {
-  margin-bottom: 5%;
-}
-
-#h4-comments {
-  margin-left: 1%;
-}
-
 .wrapper {
   width: 100%;
   min-height: 100%;
@@ -205,7 +197,22 @@ main {
 .comment .meta {
   font-size: 90%;
   margin-bottom: 0.5%;
-  opacity: 0.6;
+  color: #7e992f;
+  /* opacity: 0.6; */
+}
+
+.comment-text {
+  font-weight: lighter;
+  font-style: italic;
+  color: #b3d05d;
+}
+
+.comment-form {
+  margin-bottom: 5%;
+}
+
+#h4-comments {
+  margin-left: 1%;
 }
 
 footer {
