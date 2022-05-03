@@ -49,10 +49,12 @@ button:hover {
 
 textarea,
 input {
+  font-weight: bolder;
   padding: 0.5%;
   border-radius: 5px;
   border: 3px solid rgb(157, 157, 157);
   margin-bottom: 1%;
+  background-image: url("../images/sized-crop-misty-mtns.jpg");
 }
 
 textarea:focus,
@@ -64,10 +66,6 @@ input:focus {
 textarea {
   min-width: 40%;
   min-height: 100px;
-}
-
-.login-inputs > div {
-  margin: 0 1%;
 }
 
 form label {
@@ -83,6 +81,10 @@ form label {
 .signup-inputs {
   margin-top: 2%;
 }
+.signup-inputs input {
+  width: 280px;
+  height: 45px;
+}
 
 .signup-form > div,
 .login-form > div {
@@ -96,8 +98,18 @@ form label {
   justify-content: center;
 }
 
+.login-inputs > div {
+  margin: 0 1%;
+}
+
+.login-inputs input {
+  width: 280px;
+  height: 45px;
+}
+
 .new-post-form input {
   width: 300px;
+  height: 45px;
 }
 
 .edit-post-form {
