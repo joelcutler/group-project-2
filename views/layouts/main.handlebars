@@ -1,44 +1,58 @@
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shred It!</title>
-    <link rel="stylesheet" href="/stylesheets/style.css" />
-    {{! <script
-      src="https://kit.fontawesome.com/64efdffb7b.js"
-      crossorigin="anonymous"
-    ></script> }}
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shred It!</title>
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+  {{!
+  <script src="https://kit.fontawesome.com/64efdffb7b.js" crossorigin="anonymous"></script> }}
+</head>
 
-  <body>
+<body>
 
-    <div class="wrapper">
-      <header>
-        <h1>
-          <a href="/">Shred It!</a>
-        </h1>
-        <nav>
-          {{#if loggedIn}}
-            <a href="/dashboard">dashboard</a>
-            <button id="logout" class="btn-no-style">logout</button>
-          {{else}}
-            <a href="/login">login!</a>
-            <a href="/signup">sign up!</a>
-          {{/if}}
-        </nav>
-      </header>
-      <main>
-        {{{body}}}
-      </main>
-      <footer>
-        Thanks for visiting!
-      </footer>
-    </div>
+  <div class="wrapper">
+    <header>
+      <h1>
+        <a class="shredit" href="/">Shred It!</a>
+      </h1>
+      <h1>
+        {{!-- <span style='font-size:80px;'>🏄‍♀️</span> --}}
+        <button><a href="/">Surf</a></button>
+      </h1>
+      <h1>
+        {{!-- <span style='font-size:80px;'>🛹</span> --}}
+        <button><a href="/">Skate</a></button>
+      </h1>
+      <h1>
+        {{!-- <span style='font-size:80px;'>&#127938;</span> --}}
+        <button><a href="/">Snow</a></button>
+      </h1>
+      <h1>
+        {{!-- <span style='font-size:80px;'>&#129495;</span> --}}
+        <button><a href="/">Climb</a></button>
+      </h1>
+      <nav>
+        {{#if loggedIn}}
+        <a class="dashboard" href="/dashboard">dashboard</a>
+        <button id="logout" class="btn-no-style">logout</button>
+        {{else}}
+        <a class="login" href="/login">login!</a>
+        <a class="signup" href="/signup">sign up!</a>
+        {{/if}}
+      </nav>
+    </header>
+    <main>
+      {{{body}}}
+    </main>
+    <footer>
+      Sk8 or Die 💀!
+    </footer>
+  </div>
 
-    {{#if loggedIn}}
-      <script src="/javascript/logout.js"></script>
-    {{/if}}
-  </body>
+  {{#if loggedIn}}
+  <script src="/javascript/logout.js"></script>
+  {{/if}}
+</body>
 
 </html>

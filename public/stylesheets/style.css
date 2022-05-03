@@ -4,13 +4,16 @@
 
 body,
 html {
+  background-image: url(../images/jeremybishop.jpg);
+  background-repeat: no-repeat ;
+  background-size: cover;
+  background-position: 30% 30%;
   height: 100%;
   padding: 0;
   margin: 0;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-weight: bold;
-  background-color: #333333;
   color: #b3d05d;
 }
 
@@ -19,15 +22,34 @@ a {
   color: #3486eb;
   /* font-weight: bold; */
   transition: color 1s;
+  margin: 12px;
+}
+
+.shredit {
+  text-decoration: none;
+  color: white;
+  /* font-weight: bold; */
+  transition: color 1s;
+  margin: 12px;
+  font-size: 50px;
+}
+
+.login, .signup, .dashboard, #logout {
+  text-decoration: none;
+  color: white;
+  /* font-weight: bold; */
+  transition: color 1s;
+  margin: 12px;
+  font-size: 32px;
 }
 
 a:hover {
-  color: #8ac8fd;
+  color: #000000;
 }
 
 button {
   background-color: #7e992f;
-  border: 0;
+  border: 10px;
   padding: 1%;
   margin: 1% 0.5%;
   color: #000000;
@@ -35,7 +57,7 @@ button {
   transition: background-color 1s;
   cursor: pointer;
   border-radius: 5px;
-  font-size: 16;
+  font-size: 18;
 }
 
 button:hover {
@@ -122,6 +144,14 @@ form label {
 }
 
 header {
+  height: 25vh;
+  background-image: url(../images/skelsk8.jpg);
+  background-repeat: no-repeat;
+  background-position: 89% 89%;
+  /* height: 25vh;
+  background-image: url(../images/skulldog.jpg);
+  background-repeat: no-repeat;
+  background-position: 89% 89%; */
   border-bottom: 1px solid #ccc;
   display: flex;
   justify-content: space-between;
@@ -133,7 +163,20 @@ header h1 {
   font-size: 1em;
 }
 
+button {
+  background-color: #000000;
+  border: 0;
+  padding: 5%;
+  color:#9cbe37;
+  font-weight: bold;
+  transition: background-color .1s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
 main {
+  background-color: #333333;
+  opacity: 0.7;
   flex: 1;
   padding: 2% 4%;
 }
@@ -209,6 +252,7 @@ main {
 }
 
 footer {
+  color: #000000;
   border-top: 1px solid #ccc;
   display: flex;
   justify-content: center;
