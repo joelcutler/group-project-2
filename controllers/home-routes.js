@@ -43,7 +43,7 @@ router.get('/', (req, res) => {
 });
 
 router.get("/login", (req, res) => {
-    console.log("in router")
+    // console.log("in router")
   if (req.session.loggedIn) {
     res.redirect("/");
     return;
@@ -52,7 +52,7 @@ router.get("/login", (req, res) => {
 });
 
 router.get("/signup", (req, res) => {
-  console.log("in router")
+  // console.log("in router")
 if (req.session.loggedIn) {
   res.redirect("/");
   return;

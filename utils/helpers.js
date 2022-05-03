@@ -22,17 +22,17 @@ module.exports = {
         .split("?")[0];
     },
 
-     get_avatar_emoji: (avatarString) => {
-       console.log(avatarString);
-      switch(avatarString){
-          case "snowboard": return "🏂"
-          case "ski": return "⛷️"
-          case "climb": return "🧗‍♀️"
-          case "bike": return "🚴"
-          case "surf": return "🏄‍♀️"
-          case "raft": return "🚣"
-          default: return ""
-      }
-      }
+    //  get_avatar_emoji: (avatarString) => {
+    //    console.log(avatarString);
+    //   switch(avatarString){
+    //       case "snowboard": return "🏂"
+    //       case "ski": return "⛷️"
+    //       case "climb": return "🧗‍♀️"
+    //       case "bike": return "🚴"
+    //       case "surf": return "🏄‍♀️"
+    //       case "raft": return "🚣"
+    //       default: return ""
+    //   }
+    //   }
   };
   
