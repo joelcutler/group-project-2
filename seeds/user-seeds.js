@@ -47,11 +47,12 @@ const userData = [
     email: 'robbin4@google.ru',
     password: 'password123'
   },
-  {
-    username: 'jdilla',
-    email: 'jdilla@epa.gov',
-    password: 'password123'
-  }
+  // {
+  //   username: 'jdilla',
+  //   email: 'jdilla@epa.gov',
+  //   password: 'password123'
+  // },
+
 ];
 
 const seedUsers = () => User.bulkCreate(userData, {individualHooks: true});
