@@ -1,7 +1,8 @@
 {
   "scripts": {
     "start": "node server.js",
-    "seed": "seeds/index.js"
+    "seed": "seeds/index.js",
+    "heroku-postbuild":"npm run seed"
   },
   "name": "group-project-2",
   "description": "outdoors sports forum/blog project",
