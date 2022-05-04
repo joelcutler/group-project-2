@@ -1,6 +1,7 @@
 {
   "scripts": {
     "start": "node server.js",
+    "heroku-postbuild":"npm run seeds",
     "seeds": "node seeds/index.js"
   },
   "name": "group-project-2",

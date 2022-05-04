@@ -149,16 +149,16 @@ main {
   margin: auto;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
-  font-size: 100%;
+  color: #3486eb;
+  font-size: 92%;
   font-weight: bold;
-  transition: color 0.1s;
+  transition: color 1s;
   margin-left: 16px;
 }
 
 .btn-no-style:hover {
   background: none;
-  color: #3486eb;
+  color: #8ac8fd;
 }
 
 .delete-post-btn {
@@ -249,4 +249,8 @@ p {
   display: flex;
   flex-wrap: wrap;
   margin: 0.25em;
+}
+
+#logout {
+  margin-left: 0px;
 }
