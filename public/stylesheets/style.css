@@ -108,7 +108,7 @@ form label {
 }
 
 .new-post-form input {
-  width: 300px;
+  width: 280px;
   height: 45px;
 }
 
@@ -221,6 +221,11 @@ main {
 
 .comment-form {
   margin-bottom: 5%;
+}
+
+.comment-form textarea {
+  width: 400px;
+  min-width: initial;
 }
 
 #h4-comments {
