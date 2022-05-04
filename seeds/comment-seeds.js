@@ -9,17 +9,17 @@ const commentData = [
   {
     comment_text: 'Great shot!',
     user_id: 6,
-    post_id: 8
+    post_id: 3
   },
   {
     comment_text: 'Wish I were there and not in the office.',
     user_id: 3,
-    post_id: 10
+    post_id: 6
   },
   {
     comment_text: 'I like your setup!',
     user_id: 3,
-    post_id: 18
+    post_id: 7
   },
   {
     comment_text: 'Killer boots man!',
@@ -29,7 +29,7 @@ const commentData = [
   {
     comment_text: 'Pura Vida!',
     user_id: 1,
-    post_id: 20
+    post_id: 2
   },
   {
     comment_text: 'Aloha!!!',
@@ -39,22 +39,22 @@ const commentData = [
   {
     comment_text: 'This is what life is all about',
     user_id: 7,
-    post_id: 4
+    post_id: 1
   },
   {
     comment_text: 'Good idea',
     user_id: 6,
-    post_id: 12
+    post_id: 3
   },
   {
     comment_text: 'Skat8ordie',
     user_id: 6,
-    post_id: 20
+    post_id: 1
   },
   {
     comment_text: 'groovy!!!!',
     user_id: 3,
-    post_id: 14
+    post_id: 4
   },
   {
     comment_text: 'I love coding tis zee best',
@@ -62,16 +62,14 @@ const commentData = [
     post_id: 4
   },
   {
-    comment_text:
-      'I like your style',
+    comment_text: 'I like your style',
     user_id: 4,
-    post_id: 9
+    post_id: 5
   },
   {
-    comment_text:
-      'to the moon!',
+    comment_text: 'to the moon!',
     user_id: 5,
-    post_id: 14
+    post_id: 6
   },
   {
     comment_text: 'Rocks R cool',
