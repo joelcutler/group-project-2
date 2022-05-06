@@ -81,24 +81,26 @@ form label {
 .signup-inputs {
   margin-top: 2%;
 }
+
 .signup-inputs input {
   width: 280px;
   height: 45px;
 }
 
-.signup-form > div,
-.login-form > div {
+.signup-form>div,
+.login-form>div {
   text-align: center;
   margin-bottom: 2%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-.login-form > div {
+
+.login-form>div {
   justify-content: center;
 }
 
-.login-inputs > div {
+.login-inputs>div {
   margin: 0 1%;
 }
 
@@ -202,6 +204,7 @@ main {
 .comment:nth-child(odd) {
   background-color: #222222;
 }
+
 .comment:nth-child(even) {
   background-color: #484848;
 }
@@ -253,4 +256,50 @@ p {
 
 #logout {
   margin-left: 0px;
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+
+  body,
+  html {
+    height: 90%;
+    padding: 5px;
+    margin: 0;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: bold;
+  }
+
+  .post-list {
+    margin: 2%;
+    padding: 2%;
+    font-size: small;
+  }
+
+  .signup-form>div,
+  .login-form>div {
+    text-align: center;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+  }
+
+  .signup-inputs {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .login-inputs>div {
+    margin: 0 1%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .avatar-icon {
+    font-size: 50px;
+  }
 }
