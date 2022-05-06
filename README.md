@@ -1,10 +1,10 @@
 
 # Shred It!
 
-<img scr="./images/">
-<img scr="./images/">
-<img scr="./images/">
-<img scr="./images/">
+<img scr="./images/.screenshot.png">
+<img scr="./images/.screenshot(2).png">
+<img scr="./images/.screenshot(3).png">
+
 
 
 ## Table of Contents:
