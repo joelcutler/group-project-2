@@ -1,9 +1,9 @@
 
 # Shred It!
 
-<img scr="./images/.screenshot.png">
-<img scr="./images/.screenshot(2).png">
-<img scr="./images/.screenshot(3).png">
+<img scr=".public/images/.screenshot.png">
+<img scr=".public/images/.screenshot(2).png">
+<img scr=".public/images/.screenshot(3).png">
 
 
 
