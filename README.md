@@ -24,7 +24,7 @@ Shred-It! is a forum for outdoor and extreme sports enthusiasts.
 
 ## Links:
 
-Github repo: [Github-Link](https://github.com/joelcutler/group-project-2pp.com)
+Github repo: [Github-Link](https://github.com/joelcutler/group-project-2)
 Deployed link: [Deployed-Link](https://shred-it.herokuapp.com)
 
 ## Tehcnologies Used
